@@ -1,4 +1,3 @@
-```markdown
 # Module 1: Setting Up the Development Environment with GIT and Linux
 
 ## Module Overview
