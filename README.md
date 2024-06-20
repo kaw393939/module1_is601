@@ -67,12 +67,14 @@ GIT and Linux were both developed by Linus Torvalds. Linux is an open-source ope
 
 2. **Video: "Basic Linux Commands" (15 minutes)**
    - Purpose: To demonstrate basic Linux commands and navigation.
+  
+3. **Video: "Setting Up SSH Keys for GitHub" (15 minutes)**
+   - Purpose: To provide a visual guide to setting up SSH keys for secure communication with GitHub.
 
-3. **Video: "Getting Started with GIT" (15 minutes)**
+4. **Video: "Getting Started with GIT - Completing Hands-on Activity" (15 minutes)**
    - Purpose: To provide a visual guide to setting up and using GIT.
 
-4. **Video: "Setting Up SSH Keys for GitHub" (15 minutes)**
-   - Purpose: To provide a visual guide to setting up SSH keys for secure communication with GitHub.
+
 
 ### Review
 
