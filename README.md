@@ -17,7 +17,6 @@ Proficiency in the command line is vital for various professional roles:
 GIT and Linux were both developed by Linus Torvalds. Linux is an open-source operating system kernel, while GIT is a distributed version control system. Both tools are widely used in software development and system administration, providing powerful capabilities for managing code and operating systems.
 
 - **Linux:** Linux is known for its robustness, security, and flexibility. It is used in various environments, from servers to embedded systems. Basic commands such as `ls`, `cd`, `mkdir`, `rm`, and `cp` are essential for navigating and managing the Linux file system.
-
 - **GIT:** GIT enables multiple developers to work on the same codebase without conflicts. Key commands include `git init`, `git clone`, `git add`, `git commit`, `git push`, `git pull`, `git branch`, and `git merge`. Understanding GIT flow methodology helps streamline the development process by organizing work into branches, merging changes, and maintaining a stable main branch.
 
 ## Learning Outcomes
@@ -51,14 +50,14 @@ GIT and Linux were both developed by Linus Torvalds. Linux is an open-source ope
    - Purpose: To familiarize you with basic Linux commands and navigation.
 
 3. **Video: Quick Introduction to VI**
-   - URL [Introduction to VIM](https://www.youtube.com/watch?v=-_DvfdgR-LA)
-   - Purpose: A quick overview of Vi the linux text editor
+   - URL: [Introduction to VIM](https://www.youtube.com/watch?v=-_DvfdgR-LA)
+   - Purpose: A quick overview of Vi the Linux text editor
 
 4. **Article: "Introduction to GIT"**
    - URL: [Introduction to GIT](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
    - Purpose: To introduce you to the basics of GIT and version control.
 
-5.  **Videos: Git Introduction**
+5. **Videos: Git Introduction**
    - URL: [GIT Intro Videos](https://git-scm.com/videos)
    - Purpose: Watch these 4 short videos for more detailed explanations of GIT
 
@@ -86,9 +85,9 @@ GIT and Linux were both developed by Linus Torvalds. Linux is an open-source ope
    - [Linux Command Cheat Sheet](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/)
    - Purpose: To provide you with a quick reference to navigate the Linux command line.
 
-2.  **Resource: Vi Cheat Sheet**
+2. **Resource: Vi Cheat Sheet**
    - [Vi Cheat Sheet](https://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf)
-   -  Purpose: Varrious commands for Vi
+   - Purpose: Various commands for Vi
 
 3. **Resource: GIT Cheat Sheet**
    - URL: [GIT Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
