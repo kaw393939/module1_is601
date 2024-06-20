@@ -88,7 +88,7 @@ GIT and Linux were both developed by Linus Torvalds. Linux is an open-source ope
 
 2.  **Resource: Vi Cheat Sheet**
    - [Vi Cheat Sheet](https://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf)
-   -  
+   -  Purpose: Varrious commands for Vi
 
 3. **Resource: GIT Cheat Sheet**
    - URL: [GIT Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
