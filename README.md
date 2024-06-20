@@ -96,9 +96,13 @@ GIT and Linux were both developed by Linus Torvalds. Linux is an open-source ope
 ### Submit
 
 **Activity Type:** Hands-on Assignment  
+
 **Activity Title:** Linux and GIT Command Cheat Sheet  
+
 **Grading Type:** Points  
+
 **Submission Instructions**: Submit a link to your repository to Canvas
+
 **Instructions:** 
 - Create a cheat sheet for at least 15 Linux and GIT commands.
 - The cheat sheet should be created using Vi or another text editor in the terminal.
