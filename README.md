@@ -20,13 +20,8 @@ GIT and Linux were both developed by Linus Torvalds. Linux is an open-source ope
 - **GIT:** GIT enables multiple developers to work on the same codebase without conflicts. Key commands include `git init`, `git clone`, `git add`, `git commit`, `git push`, `git pull`, `git branch`, and `git merge`. Understanding GIT flow methodology helps streamline the development process by organizing work into branches, merging changes, and maintaining a stable main branch.
 
 ## Learning Outcomes
-- Install and configure WSL2 on a Windows machine.
-- Understand and navigate the Linux command line.
-- Use Vi to edit text files.
-- Perform basic file system operations in Linux.
-- Install and use GIT for version control.
-- Set up and configure GitHub with SSH keys.
-- Practice branching and merging in GIT.
+- CLO 1: Utilize GIT for version control and collaborative development.
+- CLO 2: Navigate and execute basic commands in a Linux environment.
 
 ## Module 1 Learning Pathway
 
