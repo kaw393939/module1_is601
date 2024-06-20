@@ -156,4 +156,3 @@ Mac users will need to install Homebrew to easily manage the installation of GIT
      git --version
      ```
    - You should see the installed version of GIT.
-```
