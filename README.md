@@ -60,7 +60,7 @@ GIT and Linux were both developed by Linus Torvalds. Linux is an open-source ope
 
 5.  **Videos: Git Introduction**
    - URL: [GIT Intro Videos](https://git-scm.com/videos)
-   = Purpose: Watch these 4 short videos for more detailed explanations of GIT
+   - Purpose: Watch these 4 short videos for more detailed explanations of GIT
 
 6. **Article: "Basic GIT Commands"**
    - URL: [Basic GIT Commands](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
