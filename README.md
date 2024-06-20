@@ -98,12 +98,15 @@ GIT and Linux were both developed by Linus Torvalds. Linux is an open-source ope
 **Activity Type:** Hands-on Assignment  
 **Activity Title:** Linux and GIT Command Cheat Sheet  
 **Grading Type:** Points  
+**Submission Instructions**: Submit a link to your repository to Canvas
 **Instructions:** 
 - Create a cheat sheet for at least 15 Linux and GIT commands.
 - The cheat sheet should be created using Vi or another text editor in the terminal.
 - Practice branching and merging in GIT by maintaining your cheat sheet in a GIT repository.
 - Set up GitHub with SSH keys and push your cheat sheet to a GitHub repository.
+
 **Grading Expectations:** Completeness and accuracy of the cheat sheet, proper use of GIT commands, successful branching and merging, and correctly setting up GitHub with SSH keys to publish the assignment to GitHub.
+  
 **Alignment:** 
 - Understand and navigate the Linux command line.
 - Use Vi to edit text files.
