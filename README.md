@@ -104,10 +104,14 @@ GIT and Linux were both developed by Linus Torvalds. Linux is an open-source ope
 **Submission Instructions**: Submit a link to your repository to Canvas
 
 **Instructions:** 
-- Create a cheat sheet for at least 15 Linux and GIT commands.
+- Create a new Git repository locally and a repository on GitHub.  You will upload / push your local repo to GitHub
+- Open two terminal windows in the same directory of your repository and use one for writing in Vi and one for performing Git commands.
+- Create a cheat sheet for at least 15 Linux and GIT commands in file called readme.md, which will be the homepage of your repository on GitHub
 - The cheat sheet should be created using Vi or another text editor in the terminal.
 - Practice branching and merging in GIT by maintaining your cheat sheet in a GIT repository.
+- You should have at least 15 branches, one branch per command and you should merge to main after completing each branch.
 - Set up GitHub with SSH keys and push your cheat sheet to a GitHub repository.
+- When you are finished locally push your Main branch to GitHub and
 
 **Grading Expectations:** Completeness and accuracy of the cheat sheet, proper use of GIT commands, successful branching and merging, and correctly setting up GitHub with SSH keys to publish the assignment to GitHub.
   
