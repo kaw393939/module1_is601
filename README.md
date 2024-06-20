@@ -106,7 +106,7 @@ GIT and Linux were both developed by Linus Torvalds. Linux is an open-source ope
 - Practice branching and merging in GIT by maintaining your cheat sheet in a GIT repository.
 - You should have at least 15 branches, one branch per command and you should merge to main after completing each branch.
 - Set up GitHub with SSH keys and push your cheat sheet to a GitHub repository.
-- When you are finished locally push your Main branch to GitHub and
+- When you are finished locally push your Main branch to GitHub
 
 **Grading Expectations:** Completeness and accuracy of the cheat sheet, proper use of GIT commands, successful branching and merging, and correctly setting up GitHub with SSH keys to publish the assignment to GitHub.
   
