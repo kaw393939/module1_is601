@@ -13,6 +13,13 @@ Proficiency in the command line is vital for various professional roles:
 - **Programming:** Developing software, managing code versions, and automating development tasks.
 - **DevOps:** Managing infrastructure, automating deployments, and ensuring system reliability.
 
+### Background on GIT and Linux
+GIT and Linux were both developed by Linus Torvalds. Linux is an open-source operating system kernel, while GIT is a distributed version control system. Both tools are widely used in software development and system administration, providing powerful capabilities for managing code and operating systems.
+
+- **Linux:** Linux is known for its robustness, security, and flexibility. It is used in various environments, from servers to embedded systems. Basic commands such as `ls`, `cd`, `mkdir`, `rm`, and `cp` are essential for navigating and managing the Linux file system.
+
+- **GIT:** GIT enables multiple developers to work on the same codebase without conflicts. Key commands include `git init`, `git clone`, `git add`, `git commit`, `git push`, `git pull`, `git branch`, and `git merge`. Understanding GIT flow methodology helps streamline the development process by organizing work into branches, merging changes, and maintaining a stable main branch.
+- 
 ### Learning Outcomes
 - Install and configure WSL2 on a Windows machine.
 - Understand and navigate the Linux command line.
@@ -26,7 +33,7 @@ Proficiency in the command line is vital for various professional roles:
 
 #### Recall
 
-**Title:** Prior Experience with Linux  
+**Title:** Prior Experience with Linux and GIT
 **Grading Type:** Points  
 **Instructions:** 
 - Participate in a discussion forum to share your previous experiences with Linux.
@@ -165,9 +172,4 @@ Mac users will need to install Homebrew to easily manage the installation of GIT
      ```
    - You should see the installed version of GIT.
 
-#### Background on GIT and Linux
-GIT and Linux were both developed by Linus Torvalds. Linux is an open-source operating system kernel, while GIT is a distributed version control system. Both tools are widely used in software development and system administration, providing powerful capabilities for managing code and operating systems.
 
-- **Linux:** Linux is known for its robustness, security, and flexibility. It is used in various environments, from servers to embedded systems. Basic commands such as `ls`, `cd`, `mkdir`, `rm`, and `cp` are essential for navigating and managing the Linux file system.
-
-- **GIT:** GIT enables multiple developers to work on the same codebase without conflicts. Key commands include `git init`, `git clone`, `git add`, `git commit`, `git push`, `git pull`, `git branch`, and `git merge`. Understanding GIT flow methodology helps streamline the development process by organizing work into branches, merging changes, and maintaining a stable main branch.
