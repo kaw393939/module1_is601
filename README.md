@@ -1,165 +1,117 @@
-# Module 1: Setting Up the Development Environment with GIT and Linux
+# 📦 Project Setup
 
-## Module Overview
-This module introduces students to essential tools for software development: GIT and Linux. Understanding and navigating the command line, using version control, and setting up a development environment are foundational skills for many roles in technology. By the end of this module, students will be able to install and configure WSL2, use basic Linux commands, edit text files with Vi, set up GIT for version control, and configure GitHub with SSH keys.
+## 🧩 Cloning the Repository
 
-### Why GIT and Linux?
-GIT and Linux were both developed by Linus Torvalds. Linux is an open-source operating system kernel, widely used for its robustness, security, and flexibility. GIT, a distributed version control system, allows multiple developers to work on the same codebase without conflicts. These tools are crucial in many fields, including data science, computer security, programming, and DevOps.
+```bash
+git clone <repository-url>
+cd <repository-directory>
+```
 
-### The Importance of the Command Line
-Proficiency in the command line is vital for various professional roles:
-- **Data Science:** Automating data processing tasks, managing data files, and running scripts.
-- **Computer Security:** Performing security audits, managing servers, and analyzing logs.
-- **Programming:** Developing software, managing code versions, and automating development tasks.
-- **DevOps:** Managing infrastructure, automating deployments, and ensuring system reliability.
+## 🛠️ Environment Setup - Only if Required by the assignment in Canvas
 
-### Background on GIT and Linux
-GIT and Linux were both developed by Linus Torvalds. Linux is an open-source operating system kernel, while GIT is a distributed version control system. Both tools are widely used in software development and system administration, providing powerful capabilities for managing code and operating systems.
+> **Note:** Most projects require **Python 3.10+**.  
+> Some modules may also use **Docker** — see below.
 
-- **Linux:** Linux is known for its robustness, security, and flexibility. It is used in various environments, from servers to embedded systems. Basic commands such as `ls`, `cd`, `mkdir`, `rm`, and `cp` are essential for navigating and managing the Linux file system.
-- **GIT:** GIT enables multiple developers to work on the same codebase without conflicts. Key commands include `git init`, `git clone`, `git add`, `git commit`, `git push`, `git pull`, `git branch`, and `git merge`. Understanding GIT flow methodology helps streamline the development process by organizing work into branches, merging changes, and maintaining a stable main branch.
+### Setting up Python Environment
 
-## Learning Outcomes
-- CLO 1: Utilize GIT for version control and collaborative development.
-- CLO 2: Navigate and execute basic commands in a Linux environment.
+1. (Optional but recommended) Create a virtual environment:
 
-## Module 1 Learning Pathway
+```bash
+python3 -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate.bat  # Windows
+```
 
-### Recall
+2. Install dependencies:
 
-**Title:** Prior Experience with Linux and GIT  
-**Grading Type:** Points  
-**Instructions:** 
-- Participate in a discussion forum to share your previous experiences with Linux and GIT.
-- Discuss any challenges you faced and how you resolved them.
-- This activity will help gauge your familiarity with Linux and GIT, and set the stage for the new material.
+```bash
+pip install -r requirements.txt
+```
 
-### Read
+---
 
-1. **Article: "Getting Started with WSL2"**
-   - URL: [Getting Started with WSL2](https://learn.microsoft.com/en-us/windows/wsl/about)
-   - Purpose: To guide you through the installation and configuration of WSL2 on Windows.
+### Using Docker (If applicable)
 
-2. **Interactive Tutorial: "Introduction to Linux Commands"**
-   - URL: [Introduction to Linux Commands](https://linuxsurvival.com/)
-   - Purpose: To familiarize you with basic Linux commands and navigation.
+> Skip this section if the project does not use Docker.
 
-3. **Video: Quick Introduction to VI**
-   - URL: [Introduction to VIM](https://www.youtube.com/watch?v=-_DvfdgR-LA)
-   - Purpose: A quick overview of Vi the Linux text editor
+1. Build the Docker image:
 
-4. **Article: "Introduction to GIT"**
-   - URL: [Introduction to GIT](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
-   - Purpose: To introduce you to the basics of GIT and version control.
+```bash
+docker build -t <image-name> .
+```
 
-5. **Videos: Git Introduction**
-   - URL: [GIT Intro Videos](https://git-scm.com/videos)
-   - Purpose: Watch these 4 short videos for more detailed explanations of GIT
+2. Run the Docker container:
 
-6. **Article: "Basic GIT Commands"**
-   - URL: [Basic GIT Commands](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
-   - Purpose: To help you learn essential GIT commands and workflows.
+```bash
+docker run -it --rm <image-name>
+```
 
-### Watch
+(You can also add volume mounts or ports here if needed.)
 
-1. **Video: "Introduction to the Unit" (15 minutes)**
-   - Purpose: To provide an overview of the unit, its objectives, and its importance.
+---
 
-2. **Video: "Basic Linux Commands" (15 minutes)**
-   - Purpose: To demonstrate basic Linux commands and navigation.
-  
-3. **Video: "Setting Up SSH Keys for GitHub" (15 minutes)**
-   - Purpose: To provide a visual guide to setting up SSH keys for secure communication with GitHub.
+## 🚀 Running the Project
 
-4. **Video: "Getting Started with GIT - Completing Hands-on Activity" (15 minutes)**
-   - Purpose: To provide a visual guide to setting up and using GIT.
+### Without Docker
 
+```bash
+python main.py
+```
 
+(Adjust if the project uses a different entry point.)
 
-### Review
+### With Docker
 
-1. **Resource: Basic Linux Commands Cheat Sheet**
-   - [Linux Command Cheat Sheet](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/)
-   - Purpose: To provide you with a quick reference to navigate the Linux command line.
+```bash
+docker run -it --rm <image-name>
+```
 
-2. **Resource: Vi Cheat Sheet**
-   - [Vi Cheat Sheet](https://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf)
-   - Purpose: Various commands for Vi
+---
 
-3. **Resource: GIT Cheat Sheet**
-   - URL: [GIT Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
-   - Purpose: To offer you a quick reference for essential GIT commands and workflows.
+## 📝 Submission Instructions (If Applicable)
 
-### Submit
+- Push your completed code to your GitHub repository:
 
-**Activity Type:** Hands-on Assignment  
+```bash
+git add .
+git commit -m "Complete Module X"
+git push origin main
+```
 
-**Activity Title:** Linux and GIT Command Cheat Sheet  
+- Submit the GitHub repository link as instructed.
 
-**Grading Type:** Points  
+---
 
-**Submission Instructions**: Submit a link to your repository to Canvas
+## ⚙️ Useful Commands
 
-**Instructions:** 
-- Create a new Git repository locally and a repository on GitHub.  You will upload / push your local repo to GitHub
-- Open two terminal windows in the same directory of your repository and use one for writing in Vi and one for performing Git commands.
-- Create a cheat sheet for at least 15 Linux and GIT commands in file called readme.md, which will be the homepage of your repository on GitHub
-- The cheat sheet should be created using Vi or another text editor in the terminal.
-- Practice branching and merging in GIT by maintaining your cheat sheet in a GIT repository.
-- You should have at least 15 branches, one branch per command and you should merge to main after completing each branch.
-- Set up GitHub with SSH keys and push your cheat sheet to a GitHub repository.
-- When you are finished locally push your Main branch to GitHub
+| Action            | Command                             |
+| ----------------- | ----------------------------------- |
+| Clone Repo        | `git clone <repo-url>`              |
+| Create VirtualEnv | `python3 -m venv venv`              |
+| Install Packages  | `pip install -r requirements.txt`  |
+| Run App           | `python main.py`                   |
+| Build Docker      | `docker build -t <image-name> .`   |
+| Run Docker        | `docker run -it --rm <image-name>`  |
 
-**Grading Expectations:** Completeness and accuracy of the cheat sheet, proper use of GIT commands, successful branching and merging, and correctly setting up GitHub with SSH keys to publish the assignment to GitHub.
-  
-**Alignment:** 
-- Understand and navigate the Linux command line.
-- Use Vi to edit text files.
-- Perform basic file system operations in Linux.
-- Install and use GIT for version control.
-- Set up and configure GitHub with SSH keys.
-- Practice branching and merging in GIT.
+---
 
-### Reflect
+# 📋 Notes
+- Make sure you have **GIT**, **Python 3.10+**, and **Docker** (if needed) installed.
+- Configure your SSH keys for GitHub if you haven't already. ([Guide here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh))
 
-**Title:** Module 1 Reflection  
-**Grading Type:** Points  
-**Instructions:** 
-- Write a brief reflection (150-200 words) on your experience setting up the development environment.
-- Discuss how confident you feel using the tools and any areas where you need further clarification or support.
-- This activity aims to encourage metacognition and connect new knowledge with prior experiences.
+---
 
-### Quiz
+# Example Usage for Your Course
 
-**Title:** Linux and GIT Basics Quiz  
-**Grading Type:** Points  
-**Instructions:** 
-- Complete a quiz covering the key concepts and commands introduced in this module.
-- The quiz will test your understanding of basic Linux commands, GIT commands, and the process of setting up SSH keys.
-- Review the provided cheat sheets and tutorials before taking the quiz.
+When you start a new module repo, you would just **copy this README**, replace:  
+- `<repository-url>` with the real GitHub URL  
+- `<repository-directory>` with the repo folder  
+- `<image-name>` with a descriptive Docker image name (if used)  
 
-### Additional Information
+✅ Otherwise, the structure stays the same.
 
-#### Installing Homebrew on Mac
-Mac users will need to install Homebrew to easily manage the installation of GIT and other software packages. Follow these steps:
+---
 
-1. **Install Homebrew:**
-   - Open the Terminal application.
-   - Paste the following command and press Enter:
-     ```sh
-     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-     ```
-   - Follow the on-screen instructions to complete the installation.
-
-2. **Install GIT using Homebrew:**
-   - In the Terminal, type the following command and press Enter:
-     ```sh
-     brew install git
-     ```
-
-3. **Verify the Installation:**
-   - Type the following command and press Enter:
-     ```sh
-     git --version
-     ```
-   - You should see the installed version of GIT.
+### **Would you like me to also create a second version for projects that are _Docker-only_ (no Python venv needed)?**  
+I can prepare both if you want a **Python version** and a **Docker-only version** to just pick and drop easily. 🚀  
+Would you want that?
